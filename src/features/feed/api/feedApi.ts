@@ -91,6 +91,137 @@ const MOCK_POSTS: Post[] = [
     isPinned: false,
     createdAt: '2026-03-18T20:55:00.000Z',
   },
+  {
+    id: '9',
+    authorId: 'u9',
+    authorName: 'Tariq Musa',
+    authorAvatar: undefined,
+    content:
+      'Code review tip: if you find yourself writing "this is a bit confusing" three times, that\'s a refactor waiting to happen.',
+    voteCount: 11,
+    isPinned: false,
+    createdAt: '2026-03-17T13:20:00.000Z',
+  },
+  {
+    id: '10',
+    authorId: 'u10',
+    authorName: 'Chloe Bergmann',
+    authorAvatar: undefined,
+    content:
+      'Spent the morning pair programming with a junior dev. Taught them about abstractions, they taught me to stop over-engineering. Fair trade.',
+    voteCount: 22,
+    isPinned: false,
+    createdAt: '2026-03-17T09:45:00.000Z',
+  },
+  {
+    id: '11',
+    authorId: 'u11',
+    authorName: 'Rajan Pillai',
+    authorAvatar: undefined,
+    content:
+      'The amount of time saved by a good README is inversely proportional to the amount of time anyone spends writing one.',
+    voteCount: 18,
+    isPinned: false,
+    createdAt: '2026-03-16T15:00:00.000Z',
+  },
+  {
+    id: '12',
+    authorId: 'u12',
+    authorName: 'Ingrid Lund',
+    authorAvatar: undefined,
+    content: 'Dark mode is not a preference. It is a lifestyle.',
+    voteCount: 34,
+    isPinned: false,
+    createdAt: '2026-03-16T10:30:00.000Z',
+  },
+  {
+    id: '13',
+    authorId: 'u13',
+    authorName: 'Felix Okafor',
+    authorAvatar: undefined,
+    content:
+      'Nothing humbles you faster than revisiting code you wrote six months ago and having absolutely no memory of writing it.',
+    voteCount: 29,
+    isPinned: false,
+    createdAt: '2026-03-15T18:10:00.000Z',
+  },
+  {
+    id: '14',
+    authorId: 'u14',
+    authorName: 'Mei Lin',
+    authorAvatar: undefined,
+    content:
+      "TypeScript generics are like glasses — uncomfortable at first, but once you get used to them you can't imagine coding without them.",
+    voteCount: 25,
+    isPinned: false,
+    createdAt: '2026-03-15T11:00:00.000Z',
+  },
+  {
+    id: '15',
+    authorId: 'u15',
+    authorName: 'Dmitri Volkov',
+    authorAvatar: undefined,
+    content:
+      'Every codebase has that one file nobody touches. Everyone knows which file it is. Nobody talks about it.',
+    voteCount: 41,
+    isPinned: false,
+    createdAt: '2026-03-14T14:55:00.000Z',
+  },
+  {
+    id: '16',
+    authorId: 'u16',
+    authorName: 'Aisha Kamara',
+    authorAvatar: undefined,
+    content:
+      'The best way to learn a new framework is to build something you actually want to use. Tutorial projects never stick.',
+    voteCount: 17,
+    isPinned: false,
+    createdAt: '2026-03-14T08:30:00.000Z',
+  },
+  {
+    id: '17',
+    authorId: 'u17',
+    authorName: 'Noah Fischer',
+    authorAvatar: undefined,
+    content:
+      "Hot take: staging environments that don't mirror production are just expensive places to build false confidence.",
+    voteCount: 13,
+    isPinned: false,
+    createdAt: '2026-03-13T17:20:00.000Z',
+  },
+  {
+    id: '18',
+    authorId: 'u18',
+    authorName: 'Lucia Vargas',
+    authorAvatar: undefined,
+    content:
+      "Accessibility is not a feature. It is a baseline. If your app doesn't work with a keyboard, it doesn't work.",
+    voteCount: 38,
+    isPinned: false,
+    createdAt: '2026-03-13T12:00:00.000Z',
+  },
+  {
+    id: '19',
+    authorId: 'u19',
+    authorName: 'Kwame Asante',
+    authorAvatar: undefined,
+    content:
+      'I do not always write tests. But when I do, I write them after the bug that cost us two hours in prod.',
+    voteCount: 20,
+    isPinned: false,
+    createdAt: '2026-03-12T16:40:00.000Z',
+  },
+  {
+    id: '20',
+    authorId: 'u20',
+    authorName: 'Hana Suzuki',
+    authorAvatar: undefined,
+    content:
+      'Shipped a zero-downtime migration today. The secret is boring infrastructure, good rollback plans, and not deploying on Fridays.',
+    voteCount: 44,
+    isPinned: false,
+    createdAt: '2026-03-12T10:15:00.000Z',
+  },
 ];
 
 const feedApi = {
