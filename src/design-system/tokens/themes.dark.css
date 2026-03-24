@@ -1,0 +1,50 @@
+[data-theme='dark'] {
+  --color-brand: var(--color-blue-500);
+  --color-brand-hover: var(--color-blue-400);
+  --color-brand-active: var(--color-blue-300);
+  --color-text-primary: var(--color-neutral-50);
+  --color-text-secondary: var(--color-neutral-400);
+  --color-text-tertiary: var(--color-neutral-500);
+  --color-text-disabled: var(--color-neutral-600);
+  --color-text-inverse: var(--color-neutral-900);
+  --color-text-link: var(--color-blue-300);
+  --color-text-link-hover: var(--color-blue-200);
+  --color-text-danger: var(--color-red-500);
+  --color-text-success: var(--color-green-500);
+  --color-text-warning: var(--color-amber-500);
+
+  --color-bg-page: var(--color-neutral-950);
+  --color-bg-surface: var(--color-neutral-900);
+  --color-bg-subtle: var(--color-neutral-800);
+  --color-bg-surface-raised: var(--color-neutral-800);
+  --color-bg-muted: var(--color-neutral-700);
+  --color-bg-inverse: var(--color-neutral-50);
+  --color-bg-overlay: rgb(3 7 18 / 0.72);
+
+  --color-border-muted: var(--color-neutral-800);
+  --color-border-default: var(--color-neutral-700);
+  --color-border-strong: var(--color-neutral-600);
+  --color-border-inverse: var(--color-neutral-200);
+  --color-border-divider: var(--color-neutral-800);
+  --color-border-brand: var(--color-blue-500);
+
+  --color-danger: var(--color-red-500);
+  --color-danger-hover: var(--color-red-600);
+  --color-danger-active: var(--color-red-700);
+  --color-danger-subtle: rgb(127 29 29 / 0.28);
+  --color-danger-muted: rgb(153 27 27 / 0.45);
+
+  --color-success: var(--color-green-500);
+  --color-success-hover: var(--color-green-600);
+  --color-success-subtle: rgb(20 83 45 / 0.28);
+  --color-success-muted: rgb(21 128 61 / 0.38);
+
+  --color-warning: var(--color-amber-500);
+  --color-warning-hover: var(--color-amber-600);
+  --color-warning-subtle: rgb(146 64 14 / 0.24);
+  --color-warning-muted: rgb(180 83 9 / 0.35);
+
+  --color-focus-ring: rgb(96 165 250 / 0.35);
+  --color-selection-bg: rgb(96 165 250 / 0.25);
+  --color-selection-text: var(--color-text-primary);
+}

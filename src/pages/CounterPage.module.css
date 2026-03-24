@@ -1,0 +1,13 @@
+.counter-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-10);
+  padding-top: var(--space-16);
+}
+
+.counter-page__heading {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  color: var(--color-text-primary);
+}

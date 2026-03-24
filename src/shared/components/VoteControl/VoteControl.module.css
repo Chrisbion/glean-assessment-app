@@ -1,0 +1,67 @@
+.vote-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.vote-control__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--color-text-tertiary);
+  font-size: var(--text-xs);
+  cursor: pointer;
+  transition:
+    color var(--duration-fast) var(--ease-default),
+    background-color var(--duration-fast) var(--ease-default);
+}
+
+.vote-control__button:hover:not(:disabled) {
+  background-color: var(--color-bg-subtle);
+  color: var(--color-text-primary);
+}
+
+.vote-control__button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.vote-control__button:focus-visible {
+  outline: 2px solid var(--color-border-focus);
+  outline-offset: 1px;
+}
+
+/* Active states */
+.vote-control__button--active-up {
+  color: var(--color-success);
+}
+
+.vote-control__button--active-up:hover:not(:disabled) {
+  color: var(--color-success-hover);
+  background-color: var(--color-success-subtle);
+}
+
+.vote-control__button--active-down {
+  color: var(--color-danger);
+}
+
+.vote-control__button--active-down:hover:not(:disabled) {
+  color: var(--color-danger-hover);
+  background-color: var(--color-danger-subtle);
+}
+
+.vote-control__count {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--color-text-primary);
+  min-width: 2ch;
+  text-align: center;
+  line-height: 1;
+}

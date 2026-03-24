@@ -1,0 +1,32 @@
+:root {
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --font-label: var(--font-sans);
+  --font-code: var(--font-mono);
+
+  --text-body-sm: var(--text-sm);
+  --text-body-md: var(--text-base);
+  --text-body-lg: var(--text-lg);
+
+  --text-heading-sm: var(--text-lg);
+  --text-heading-md: var(--text-2xl);
+  --text-heading-lg: var(--text-3xl);
+  --text-heading-display: var(--text-4xl);
+
+  --text-label: var(--text-sm);
+  --text-caption: var(--text-xs);
+  --text-code: var(--text-sm);
+
+  --leading-body: var(--leading-normal);
+  --leading-heading: var(--leading-tight);
+  --leading-caption: var(--leading-normal);
+
+  --tracking-body: var(--tracking-normal);
+  --tracking-heading: var(--tracking-tight);
+  --tracking-label: var(--tracking-wide);
+
+  --font-weight-body: var(--font-normal);
+  --font-weight-heading: var(--font-semibold);
+  --font-weight-label: var(--font-medium);
+  --font-weight-strong: var(--font-bold);
+}

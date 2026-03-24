@@ -1,0 +1,131 @@
+.post-card {
+  position: relative;
+  background-color: var(--color-bg-surface);
+  border: 1px solid var(--color-text-disabled);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--duration-fast) var(--ease-default);
+}
+
+.post-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.post-card--pinned {
+  border-color: var(--color-brand-outline);
+  background-color: var(--color-brand-subtle);
+}
+
+/* Pin button */
+.post-card__pin-button {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity var(--duration-fast) var(--ease-default),
+    background-color var(--duration-fast) var(--ease-default);
+}
+
+.post-card:hover .post-card__pin-button {
+  opacity: 1;
+}
+
+.post-card__pin-button--pinned {
+  opacity: 1;
+}
+
+.post-card__pin-button:hover:not(:disabled) {
+  background-color: var(--color-bg-subtle);
+}
+
+.post-card__pin-button:focus-visible {
+  outline: 2px solid var(--color-border-focus);
+  outline-offset: 1px;
+  opacity: 1;
+}
+
+.post-card__pin-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* On touch devices (no hover), always show the pin button */
+@media (hover: none) {
+  .post-card__pin-button {
+    opacity: 1;
+  }
+}
+
+/* Layout */
+.post-card__body {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.post-card__vote {
+  flex-shrink: 0;
+  padding: var(--space-3);
+  border-right: 1px solid var(--color-text-disabled);
+}
+
+.post-card__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-card--content {
+  display: flex;
+  gap: 8px;
+}
+
+/* Header */
+.post-card__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-bottom: 1px solid #dedede;
+}
+
+.post-card__author-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.post-card__author-name {
+  line-height: var(--leading-tight);
+}
+
+.post-card__timestamp {
+  line-height: var(--leading-tight);
+}
+
+/* Text */
+.post-card__text {
+  padding: var(--space-4);
+  line-height: var(--leading-relaxed);
+}
+
+.post-card__text-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 85px;
+}

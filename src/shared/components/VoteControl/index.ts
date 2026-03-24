@@ -1,0 +1,1 @@
+export { VoteControl } from './VoteControl';

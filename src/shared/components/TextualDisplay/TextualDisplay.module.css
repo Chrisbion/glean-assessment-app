@@ -1,0 +1,57 @@
+.textual-display {
+  font-family: var(--font-sans);
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+/* Size modifiers */
+.textual-display--xs {
+  font-size: var(--text-xs);
+}
+.textual-display--sm {
+  font-size: var(--text-sm);
+}
+.textual-display--base {
+  font-size: var(--text-base);
+}
+.textual-display--lg {
+  font-size: var(--text-lg);
+}
+.textual-display--xl {
+  font-size: var(--text-xl);
+}
+.textual-display--2xl {
+  font-size: var(--text-2xl);
+}
+
+/* Weight modifiers */
+.textual-display--normal {
+  font-weight: var(--font-normal);
+}
+.textual-display--medium {
+  font-weight: var(--font-medium);
+}
+.textual-display--semibold {
+  font-weight: var(--font-semibold);
+}
+.textual-display--bold {
+  font-weight: var(--font-bold);
+}
+
+/* Color modifiers */
+.textual-display--primary {
+  color: var(--color-text-primary);
+}
+.textual-display--secondary {
+  color: var(--color-text-secondary);
+}
+.textual-display--tertiary {
+  color: var(--color-text-tertiary);
+}
+
+/* Truncate modifier */
+.textual-display--truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

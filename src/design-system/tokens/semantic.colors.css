@@ -1,0 +1,58 @@
+:root {
+  --color-brand: var(--color-blue-600);
+  --color-brand-hover: var(--color-blue-700);
+  --color-brand-active: var(--color-blue-800);
+  --color-brand-subtle: var(--color-blue-50);
+  --color-brand-muted: var(--color-blue-100);
+  --color-brand-outline: var(--color-blue-200);
+
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-neutral-500);
+  --color-text-disabled: var(--color-neutral-400);
+  --color-text-inverse: var(--color-neutral-0);
+  --color-text-link: var(--color-blue-700);
+  --color-text-link-hover: var(--color-blue-800);
+  --color-text-danger: var(--color-red-700);
+  --color-text-success: var(--color-green-700);
+  --color-text-warning: var(--color-amber-700);
+
+  --color-bg-page: var(--color-neutral-50);
+  --color-bg-surface: var(--color-neutral-0);
+  --color-bg-surface-raised: var(--color-neutral-0);
+  --color-bg-subtle: var(--color-neutral-100);
+  --color-bg-muted: var(--color-neutral-200);
+  --color-bg-inverse: var(--color-neutral-900);
+  --color-bg-overlay: rgb(3 7 18 / 0.56);
+
+  --color-border-default: var(--color-neutral-200);
+  --color-border-muted: var(--color-neutral-100);
+  --color-border-strong: var(--color-neutral-300);
+  --color-border-inverse: var(--color-neutral-800);
+  --color-border-divider: var(--color-neutral-200);
+  --color-border-focus: var(--color-blue-500);
+  --color-border-brand: var(--color-blue-300);
+
+  --color-danger: var(--color-red-600);
+  --color-danger-hover: var(--color-red-700);
+  --color-danger-active: var(--color-red-700);
+  --color-danger-subtle: var(--color-red-50);
+  --color-danger-muted: var(--color-red-100);
+  --color-danger-outline: var(--color-red-200);
+
+  --color-success: var(--color-green-600);
+  --color-success-hover: var(--color-green-700);
+  --color-success-subtle: var(--color-green-50);
+  --color-success-muted: var(--color-green-100);
+  --color-success-outline: var(--color-green-200);
+
+  --color-warning: var(--color-amber-600);
+  --color-warning-hover: var(--color-amber-700);
+  --color-warning-subtle: var(--color-amber-50);
+  --color-warning-muted: var(--color-amber-100);
+  --color-warning-outline: var(--color-amber-200);
+
+  --color-focus-ring: rgb(59 130 246 / 0.35);
+  --color-selection-bg: rgb(37 99 235 / 0.18);
+  --color-selection-text: var(--color-text-primary);
+}
